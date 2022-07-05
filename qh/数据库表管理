@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T02:00:44.728Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="dNbsFP9N0pdVGydToMfQ" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-05T02:36:21.325Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="M3s-9f4czwEwIsaOLpSL" version="20.0.4" type="github">
   <diagram id="WZSoFni79T9RVlbpjbPB" name="Page-1">
     <mxGraphModel dx="2012" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -201,10 +201,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="K3kBhpr-hOBAHywXBPJH-71" value="ConnectionInstance" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="1730" width="164" height="205" as="geometry" />
+          <mxGeometry x="-440" y="1730" width="170" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="K3kBhpr-hOBAHywXBPJH-72" value="-id 主键id&#xa;-type 类型 1：mysql&#xa;-name&#xa;-url&#xa;-port&#xa;-userName&#xa;-password&#xa;-remark&#xa;-status 1：正常 2：删除&#xa;-createTime&#xa;-update_time&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="K3kBhpr-hOBAHywXBPJH-71">
-          <mxGeometry y="30" width="164" height="175" as="geometry" />
+        <mxCell id="K3kBhpr-hOBAHywXBPJH-72" value="-id 主键id&#xa;-type 类型 1：mysql&#xa;-name&#xa;-url&#xa;-port&#xa;-userName&#xa;-password&#xa;-remark&#xa;-status 1：正常 2：删除&#xa;-createTime&#xa;-update_time&#xa;-groupCode&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="K3kBhpr-hOBAHywXBPJH-71">
+          <mxGeometry y="30" width="170" height="190" as="geometry" />
         </mxCell>
         <mxCell id="K3kBhpr-hOBAHywXBPJH-73" value="数据库表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="-750" y="2030" width="180" height="160" as="geometry" />
@@ -262,13 +262,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="K3kBhpr-hOBAHywXBPJH-86" value="DataBaseInfo" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-420" y="2045" width="150" height="155" as="geometry" />
+          <mxGeometry x="-420" y="2045" width="180" height="195" as="geometry" />
         </mxCell>
         <mxCell id="K3kBhpr-hOBAHywXBPJH-87" value="-id 主键id&#xa;-connectionId 连接id&#xa;-name 数据库名称&#xa;-remark 备注&#xa;-status 1：正常，2.删除&#xa;-createTime 创建时间&#xa;-updateTime 修改时间" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="K3kBhpr-hOBAHywXBPJH-86">
-          <mxGeometry y="30" width="150" height="125" as="geometry" />
+          <mxGeometry y="30" width="180" height="165" as="geometry" />
         </mxCell>
         <mxCell id="K3kBhpr-hOBAHywXBPJH-89" value="接口：&lt;br&gt;1.查询连接list&lt;br&gt;2.删除连接&lt;br&gt;3.设置（修改）&lt;br&gt;4.测试连接&lt;br&gt;5.查询远程库列表&lt;br&gt;6.根据库名查询远程表列表&lt;br&gt;7.新增本地连接&lt;br&gt;8.新增本地数据库记录&lt;br&gt;9.新增本地表记录&lt;br&gt;10.定时任务轮训远程数据源，校验数据库连接、库、表、字段、字段类型、注释等信息。同时将异常的信息状态更新到对应的数据库展示（红色叹号）&lt;br&gt;11.查询数据库列表&lt;br&gt;12.数据库备注修改&lt;br&gt;13.数据库备注删除&lt;br&gt;14.数据库记录本地删除&lt;br&gt;15.功能权限配置生效&lt;br&gt;16.数据表列表查询&lt;br&gt;17.数据表行数字段信息查询及更新（定时任务拉取）&lt;br&gt;18.数据表记录删除&lt;br&gt;19.数据表详情查询，含字段名称、逻辑主键、逻辑外键&lt;br&gt;20.数据表数据预览，展示前10条&lt;br&gt;21.注释91，92,93询问前端是否需要接口&lt;br&gt;22.逻辑外键的删除&lt;br&gt;23.表设置保存按钮接口&lt;br&gt;24.注释89-3A1A，表设置-信息发生变化时，记录日志，发站内信、电子邮件、短信" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-164" y="1754" width="524" height="626" as="geometry" />
+          <mxGeometry x="-164" y="1754" width="524" height="436" as="geometry" />
         </mxCell>
         <mxCell id="K3kBhpr-hOBAHywXBPJH-90" value="数据表表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="-755" y="2320" width="210" height="160" as="geometry" />
@@ -326,10 +326,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="K3kBhpr-hOBAHywXBPJH-103" value="DataTableInfo" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="2325" width="193" height="150" as="geometry" />
+          <mxGeometry x="-420" y="2310" width="191.5" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="K3kBhpr-hOBAHywXBPJH-104" value="-id&#xa;-dbId 库id&#xa;-name&#xa;-comment 注释，同mysql注释&#xa;-remark 备注&#xa;-type 类型 1：数据表，2：代码表&#xa;-row_count 表行数&#xa;-createTime 创建时间&#xa;-updateTime修改时间&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="K3kBhpr-hOBAHywXBPJH-103">
-          <mxGeometry y="30" width="193" height="120" as="geometry" />
+        <mxCell id="K3kBhpr-hOBAHywXBPJH-104" value="-id&#xa;-dbId 库id&#xa;-name&#xa;-comment 注释，同mysql注释&#xa;-remark 备注&#xa;-type 类型 1：数据表，2：代码表&#xa;-row_count 表行数&#xa;-createTime 创建时间&#xa;-updateTime修改时间&#xa;-status 状态 1：正常 2：异常&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="K3kBhpr-hOBAHywXBPJH-103">
+          <mxGeometry y="30" width="191.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="K3kBhpr-hOBAHywXBPJH-105" value="表字段表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="-750" y="2600" width="180" height="160" as="geometry" />
@@ -387,13 +387,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="K3kBhpr-hOBAHywXBPJH-118" value="TableColumnInfo" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="2615" width="270" height="355" as="geometry" />
+          <mxGeometry x="-459.25" y="2560" width="270" height="355" as="geometry" />
         </mxCell>
-        <mxCell id="K3kBhpr-hOBAHywXBPJH-119" value="-id&#xa;-tableId 表id&#xa;-name&#xa;-comment 注释&#xa;-showName 显示名&#xa;-tip 提示&#xa;-dataType 字段数据类型&#xa;-isPrimary 是否主键 1:是 0：否&#xa;-isNull 是否可空 1：是 0：否&#xa;-isIndex 1：是 2：不是&#xa;-isLogicalPrimary 是否逻辑主键 1：是 0：否&#xa;-isCodeKey 是否代码键 1：是 0：否&#xa;-isNameKey 是否名称键 1：是 0：否&#xa;-isParent 是否父子级 1：是 0：否&#xa;-isAnnotation 是否注解 1：是 0：否" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="K3kBhpr-hOBAHywXBPJH-118">
+        <mxCell id="K3kBhpr-hOBAHywXBPJH-119" value="-id&#xa;-tableId 表id&#xa;-name&#xa;-comment 注释&#xa;-showName 显示名&#xa;-tip 提示&#xa;-dataType 字段数据类型&#xa;-isPrimary 是否主键 1:是 0：否&#xa;-isNull 是否可空 1：是 0：否&#xa;-isIndex 1：是 2：不是&#xa;-isLogicalPrimary 是否逻辑主键 1：是 0：否&#xa;-isCodeKey 是否代码键 1：是 0：否&#xa;-isNameKey 是否名称键 1：是 0：否&#xa;-isParent 是否父子级 1：是 0：否&#xa;-isAnnotation 是否注解 1：是 0：否&#xa;-status 状态 1：正常 2：异常" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="K3kBhpr-hOBAHywXBPJH-118">
           <mxGeometry y="30" width="270" height="325" as="geometry" />
         </mxCell>
         <mxCell id="K3kBhpr-hOBAHywXBPJH-120" value="约束：&lt;br&gt;1.已被选择为【注解】的字段，不能被选为【代码键】或【名称键】或【父子级】&lt;br&gt;2.已被选择为【父子级】的字段，不能被选为【代码键】或【名称级】或【注解】&lt;br&gt;3.已被选择为【名称键】的字段，不能被选为【代码键】或【父子级】或【注解】&lt;br&gt;4.已被选择为【代码键】的字段，不能被选为【名称键】或【父子级】或【注解】" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-510" y="2909" width="430" height="151" as="geometry" />
+          <mxGeometry x="-520" y="2854" width="430" height="151" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
