@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T02:26:23.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="T2ZRCm4EIUtBKrRmIQIB" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-26T02:34:08.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="JZZjUjIZoKrpYL25ijyN" version="20.2.6" type="github">
   <diagram id="X3r7UUFGu-d4pkaIXmeD" name="第 1 页">
     <mxGraphModel dx="938" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="0qKvCKfNFRReluJwykT6-1" value="MacroIndex" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="280" y="251" width="330" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="0qKvCKfNFRReluJwykT6-2" value="+id&#xa;+name 全局唯一， 非空&#xa;+comment &#xa;+abs_m_base_id&#xa;+abs_default_store_unit_id&#xa;+abs_default_show_unit_id&#xa;+rel_m_base_id&#xa;+rel_default_store_unit_id&#xa;+rel_default_store_unit_id&#xa;+from 非空&#xa;+frequency 必填，可多选，多个；分隔&#xa;+alias_count&#xa;+create_time&#xa;+update_time&#xa;remark 备注" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="0qKvCKfNFRReluJwykT6-1">
+        <mxCell id="0qKvCKfNFRReluJwykT6-2" value="+id&#xa;+index_id 指标id&#xa;+name 全局唯一， 非空&#xa;+comment &#xa;+abs_m_base_id&#xa;+abs_default_store_unit_id&#xa;+abs_default_show_unit_id&#xa;+rel_m_base_id&#xa;+rel_default_store_unit_id&#xa;+rel_default_store_unit_id&#xa;+from 非空&#xa;+frequency 必填，可多选，多个；分隔&#xa;+create_time&#xa;+update_time&#xa;remark 备注" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="0qKvCKfNFRReluJwykT6-1">
           <mxGeometry y="30" width="330" height="220" as="geometry" />
         </mxCell>
         <mxCell id="0qKvCKfNFRReluJwykT6-4" value="Alias" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
