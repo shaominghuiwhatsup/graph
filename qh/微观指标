@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T02:12:03.525Z" agent="5.0 (Windows)" etag="R39Ie7OVf-DZBDbNUIsh" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T09:18:37.794Z" agent="5.0 (Windows)" etag="sbyXFe8k8iA-y-okiWyh" version="20.5.1" type="github">
   <diagram id="f9Am4XNajeTSGzaqn8v7" name="第 1 页">
     <mxGraphModel dx="1185" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,6 +42,24 @@
         </mxCell>
         <mxCell id="iISm11VRZRsI-0ucnoMf-17" value="库表的同步到doris" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-19" value="data_t" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="720" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-20" value="data_t_id&#xa;data_t_name&#xa;data_t_status 暂存、初始化、。。&#xa;p_dir_id 父文件夹id&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iISm11VRZRsI-0ucnoMf-19">
+          <mxGeometry y="26" width="300" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-23" value="data_dir" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="570" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-24" value="dir_id&#xa;dir_name&#xa;p_dir_id&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iISm11VRZRsI-0ucnoMf-23">
+          <mxGeometry y="26" width="140" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-25" value="data_t_col" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="660" width="270" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-26" value="col_id&#xa;col_show_cur_name 当前显示名&#xa;col_show_sys_name 系统显示名&#xa;col_source 字段源&#xa;col_ori_name 字段原始名&#xa;col_ori_comment 字段原始注释&#xa;col_type 字段类型&#xa;sample_data 样例数据&#xa;&#xa;data_t_id 数据表id&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iISm11VRZRsI-0ucnoMf-25">
+          <mxGeometry y="26" width="270" height="174" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
