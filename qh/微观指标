@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-10-08T02:28:55.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="20.2.7" etag="lgQT9iBPxR9keW2ZbIMV" type="github"><diagram id="f9Am4XNajeTSGzaqn8v7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-26T02:12:03.525Z" agent="5.0 (Windows)" etag="R39Ie7OVf-DZBDbNUIsh" version="20.5.1" type="github">
+  <diagram id="f9Am4XNajeTSGzaqn8v7" name="第 1 页">
+    <mxGraphModel dx="1185" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iISm11VRZRsI-0ucnoMf-2" value="分组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-3" value="分层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-4" value="打码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iISm11VRZRsI-0ucnoMf-5" target="iISm11VRZRsI-0ucnoMf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-5" value="通过拖拽等配置表及字段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iISm11VRZRsI-0ucnoMf-6" target="iISm11VRZRsI-0ucnoMf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-6" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-8" value="配置字段权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iISm11VRZRsI-0ucnoMf-10" target="iISm11VRZRsI-0ucnoMf-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-10" value="数据库表管理配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iISm11VRZRsI-0ucnoMf-15" target="iISm11VRZRsI-0ucnoMf-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-15" value="触发flink同步任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-17" value="库表的同步到doris" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
