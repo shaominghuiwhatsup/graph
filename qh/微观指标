@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T09:18:37.794Z" agent="5.0 (Windows)" etag="sbyXFe8k8iA-y-okiWyh" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-27T01:01:07.405Z" agent="5.0 (Windows)" etag="njFFR62ci8AMQwxDEVqM" version="20.5.1" type="github">
   <diagram id="f9Am4XNajeTSGzaqn8v7" name="第 1 页">
     <mxGraphModel dx="1185" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,8 +58,20 @@
         <mxCell id="iISm11VRZRsI-0ucnoMf-25" value="data_t_col" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="410" y="660" width="270" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="iISm11VRZRsI-0ucnoMf-26" value="col_id&#xa;col_show_cur_name 当前显示名&#xa;col_show_sys_name 系统显示名&#xa;col_source 字段源&#xa;col_ori_name 字段原始名&#xa;col_ori_comment 字段原始注释&#xa;col_type 字段类型&#xa;sample_data 样例数据&#xa;&#xa;data_t_id 数据表id&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iISm11VRZRsI-0ucnoMf-25">
+        <mxCell id="iISm11VRZRsI-0ucnoMf-26" value="col_id&#xa;col_show_cur_name 当前显示名&#xa;col_show_sys_name 系统显示名&#xa;col_source 字段源&#xa;col_ori_name 字段原始名&#xa;col_ori_comment 字段原始注释&#xa;col_type 字段类型&#xa;sample_data 样例数据&#xa;col_rank 排序，同一数据表，rank累加&#xa;&#xa;data_t_id 数据表id&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iISm11VRZRsI-0ucnoMf-25">
           <mxGeometry y="26" width="270" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-27" value="role_col_perm" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="900" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-28" value="role_code&#xa;col_id&#xa;data_t_id 数据表idperm&#xa;enc_mode 加密方式：不加密、分层、打码&#xa;&#xa;can_select 是否有查询权限&#xa;can_export 是否有导出权限&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iISm11VRZRsI-0ucnoMf-27">
+          <mxGeometry y="26" width="240" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-32" value="col_where(筛选器)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="930" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-33" value="col_id&#xa;data_t_id 数据表id&#xa;&#xa;condition 条件&#xa;pre_connector 前置连接符，默认and&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iISm11VRZRsI-0ucnoMf-32">
+          <mxGeometry y="26" width="240" height="124" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
