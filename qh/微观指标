@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T01:01:07.405Z" agent="5.0 (Windows)" etag="njFFR62ci8AMQwxDEVqM" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-27T02:08:20.886Z" agent="5.0 (Windows)" etag="LgiHwMKOATkuqBpDQpC3" version="20.5.1" type="github">
   <diagram id="f9Am4XNajeTSGzaqn8v7" name="第 1 页">
     <mxGraphModel dx="1185" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,46 +32,111 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iISm11VRZRsI-0ucnoMf-10" value="数据库表管理配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iISm11VRZRsI-0ucnoMf-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iISm11VRZRsI-0ucnoMf-15" target="iISm11VRZRsI-0ucnoMf-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iISm11VRZRsI-0ucnoMf-15" value="触发flink同步任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iISm11VRZRsI-0ucnoMf-17" value="库表的同步到doris" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="700" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iISm11VRZRsI-0ucnoMf-19" value="data_t" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="720" width="300" height="120" as="geometry" />
+          <mxGeometry x="55" y="1030" width="300" height="120" as="geometry" />
         </mxCell>
         <mxCell id="iISm11VRZRsI-0ucnoMf-20" value="data_t_id&#xa;data_t_name&#xa;data_t_status 暂存、初始化、。。&#xa;p_dir_id 父文件夹id&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iISm11VRZRsI-0ucnoMf-19">
           <mxGeometry y="26" width="300" height="94" as="geometry" />
         </mxCell>
         <mxCell id="iISm11VRZRsI-0ucnoMf-23" value="data_dir" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="570" width="140" height="120" as="geometry" />
+          <mxGeometry x="85" y="880" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="iISm11VRZRsI-0ucnoMf-24" value="dir_id&#xa;dir_name&#xa;p_dir_id&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iISm11VRZRsI-0ucnoMf-23">
           <mxGeometry y="26" width="140" height="94" as="geometry" />
         </mxCell>
         <mxCell id="iISm11VRZRsI-0ucnoMf-25" value="data_t_col" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="660" width="270" height="200" as="geometry" />
+          <mxGeometry x="415" y="970" width="270" height="200" as="geometry" />
         </mxCell>
         <mxCell id="iISm11VRZRsI-0ucnoMf-26" value="col_id&#xa;col_show_cur_name 当前显示名&#xa;col_show_sys_name 系统显示名&#xa;col_source 字段源&#xa;col_ori_name 字段原始名&#xa;col_ori_comment 字段原始注释&#xa;col_type 字段类型&#xa;sample_data 样例数据&#xa;col_rank 排序，同一数据表，rank累加&#xa;&#xa;data_t_id 数据表id&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iISm11VRZRsI-0ucnoMf-25">
           <mxGeometry y="26" width="270" height="174" as="geometry" />
         </mxCell>
         <mxCell id="iISm11VRZRsI-0ucnoMf-27" value="role_col_perm" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="900" width="240" height="150" as="geometry" />
+          <mxGeometry x="255" y="1210" width="240" height="150" as="geometry" />
         </mxCell>
         <mxCell id="iISm11VRZRsI-0ucnoMf-28" value="role_code&#xa;col_id&#xa;data_t_id 数据表idperm&#xa;enc_mode 加密方式：不加密、分层、打码&#xa;&#xa;can_select 是否有查询权限&#xa;can_export 是否有导出权限&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iISm11VRZRsI-0ucnoMf-27">
           <mxGeometry y="26" width="240" height="124" as="geometry" />
         </mxCell>
         <mxCell id="iISm11VRZRsI-0ucnoMf-32" value="col_where(筛选器)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="930" width="240" height="150" as="geometry" />
+          <mxGeometry x="525" y="1240" width="240" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="iISm11VRZRsI-0ucnoMf-33" value="col_id&#xa;data_t_id 数据表id&#xa;&#xa;condition 条件&#xa;pre_connector 前置连接符，默认and&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iISm11VRZRsI-0ucnoMf-32">
+        <mxCell id="iISm11VRZRsI-0ucnoMf-33" value="col_id&#xa;data_t_id 数据表id&#xa;&#xa;condition 条件&#xa;pre_connector 前置连接符，默认and&#xa;detail 详细内容&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iISm11VRZRsI-0ucnoMf-32">
           <mxGeometry y="26" width="240" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-35" value="data_log" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1250" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-36" value="id&#xa;log_type&#xa;log_detail" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iISm11VRZRsI-0ucnoMf-35">
+          <mxGeometry y="26" width="140" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iISm11VRZRsI-0ucnoMf-37" target="iISm11VRZRsI-0ucnoMf-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iISm11VRZRsI-0ucnoMf-37" target="iISm11VRZRsI-0ucnoMf-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-37" value="数据表配置完成点保存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-38" value="batch_schedule" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="820" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-39" value="id&#xa;&#xa;doris_t_iddata_t_id&#xa;sync_time 上次同步时间&#xa;sync_status 同步中、同步成功、同步失败&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iISm11VRZRsI-0ucnoMf-38">
+          <mxGeometry y="26" width="210" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-40" value="向batch_schedule表写入一条同步日程" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iISm11VRZRsI-0ucnoMf-42" target="iISm11VRZRsI-0ucnoMf-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iISm11VRZRsI-0ucnoMf-42" target="iISm11VRZRsI-0ucnoMf-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-42" value="&lt;div&gt;定时任务（设置为每十分钟执行一次）扫描十分钟之内触发的任务&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="iISm11VRZRsI-0ucnoMf-44" target="iISm11VRZRsI-0ucnoMf-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-44" value="将任务写到rabbitmq的延时队列" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iISm11VRZRsI-0ucnoMf-46" target="iISm11VRZRsI-0ucnoMf-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iISm11VRZRsI-0ucnoMf-46" target="iISm11VRZRsI-0ucnoMf-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-55" value="读取job内容" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iISm11VRZRsI-0ucnoMf-54">
+          <mxGeometry x="-0.4" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-46" value="consumer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-48" value="doris" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-50" value="sync_job" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1410" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-51" value="id&#xa;data_t_id 数据表id&#xa;t_type 主表、从表&#xa;rel_type 左关联、内关联&#xa;table_id 表id 关联到数据库表管理中&#xa;db_id&#xa;instance_id&#xa;&#xa;doris_t_name 同步到doris宽表的表名&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iISm11VRZRsI-0ucnoMf-50">
+          <mxGeometry y="26" width="230" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="iISm11VRZRsI-0ucnoMf-52" value="写入sync_job" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
