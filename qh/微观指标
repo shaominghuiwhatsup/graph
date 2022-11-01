@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T03:49:30.947Z" agent="5.0 (Windows)" etag="4gdB0x9vITx9Clpsgfjw" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T03:55:19.334Z" agent="5.0 (Windows)" etag="5avyZHzrxD8R1DpzFK8w" version="20.5.1" type="github">
   <diagram id="f9Am4XNajeTSGzaqn8v7" name="第 1 页">
-    <mxGraphModel dx="1673" dy="885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1497" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,7 +160,7 @@
         <mxCell id="MBy951IUKOqmhGZ1S-3M-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MBy951IUKOqmhGZ1S-3M-45" target="MBy951IUKOqmhGZ1S-3M-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MBy951IUKOqmhGZ1S-3M-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MBy951IUKOqmhGZ1S-3M-45" target="MBy951IUKOqmhGZ1S-3M-61">
+        <mxCell id="MBy951IUKOqmhGZ1S-3M-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MBy951IUKOqmhGZ1S-3M-45" target="MBy951IUKOqmhGZ1S-3M-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MBy951IUKOqmhGZ1S-3M-45" value="&lt;div&gt;定制任务1：&lt;/div&gt;&lt;div&gt;A,B表&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -203,13 +203,13 @@
           <mxGeometry x="1085" y="605" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MBy951IUKOqmhGZ1S-3M-61" value="doris定制表1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="710" width="120" height="60" as="geometry" />
+          <mxGeometry x="1710" y="615" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MBy951IUKOqmhGZ1S-3M-63" value="doris定制表2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="940" width="120" height="60" as="geometry" />
+          <mxGeometry x="1720" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MBy951IUKOqmhGZ1S-3M-65" value="doris定制表3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1025" y="1170" width="120" height="60" as="geometry" />
+          <mxGeometry x="1670" y="1170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MBy951IUKOqmhGZ1S-3M-69" value="监控binlog，将数据写入mq" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1110" y="830" width="170" height="30" as="geometry" />
@@ -217,11 +217,20 @@
         <mxCell id="MBy951IUKOqmhGZ1S-3M-71" value="监控binlog，将数据写入mq" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1100" y="1090" width="170" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MBy951IUKOqmhGZ1S-3M-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MBy951IUKOqmhGZ1S-3M-72" target="MBy951IUKOqmhGZ1S-3M-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MBy951IUKOqmhGZ1S-3M-72" value="定制任务1 consume" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1450" y="610" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="MBy951IUKOqmhGZ1S-3M-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MBy951IUKOqmhGZ1S-3M-73" target="MBy951IUKOqmhGZ1S-3M-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MBy951IUKOqmhGZ1S-3M-73" value="定制任务2 consume" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1440" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MBy951IUKOqmhGZ1S-3M-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.65;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MBy951IUKOqmhGZ1S-3M-74" target="MBy951IUKOqmhGZ1S-3M-65">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MBy951IUKOqmhGZ1S-3M-74" value="定制任务3 consume" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1450" y="1040" width="120" height="60" as="geometry" />
