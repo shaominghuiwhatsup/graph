@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T01:54:58.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="6UfkrknxgIq6OtJ6D6sn" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T02:03:39.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="bJIpopd9pHoxCf0w2wzG" version="20.8.13" type="github">
   <diagram name="第 1 页" id="T7SwOCrqXJXNg_Xdq0zE">
     <mxGraphModel dx="2261" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -178,8 +178,8 @@
         <mxCell id="bDCINoauEDEI5eoQZ-ED-48" value="mis库" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-200" y="250" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bDCINoauEDEI5eoQZ-ED-51" value="1.文件夹选择器，只展示我的文件夹下面内容" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="80" width="300" height="50" as="geometry" />
+        <mxCell id="bDCINoauEDEI5eoQZ-ED-51" value="1.文件夹选择器，只展示我的文件夹下面内容&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.组件管理，tip字段前端接入&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.表单权限：数据宽表详情表单&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="300" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
