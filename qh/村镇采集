@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T03:41:27.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="bYDlncbd9ojdwO-fqfLp" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T03:45:07.484Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="rm91ZGqjhz4Dhk6fORHS" version="21.2.9" type="github">
   <diagram name="第 1 页" id="p9VmmkafGEHbFP1PxyVO">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -415,11 +415,14 @@
         <mxCell id="xDw_eRk6znZJZdeoMfOq-100" value="已分发的表已经关联了该模板&lt;br&gt;开发难度大" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xDw_eRk6znZJZdeoMfOq-127" value="问题&lt;br&gt;1.分发时可以填报 报送单位，而模板创建时也可以指定报送单位，不同时怎么办？&lt;br&gt;2.期数数量（下期分发时间）怎么确定，根据报表期别判断？规则列清&lt;br&gt;3.报表模板编辑中指定了填报人，这个填报人值得是具体账号，还是角色？&lt;br&gt;4.当期报送截止时间 = 报出日期（报表模板编辑中右下角）吗？&lt;br&gt;5.下期未分发的为啥会出现在报表审核列表中&lt;br&gt;6.模板编辑保存、删除功能对已分发的影响？如果无影响，那么已引用该模板id的任务会有问题" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+        <mxCell id="xDw_eRk6znZJZdeoMfOq-127" value="问题&lt;br&gt;1.分发时可以填报 报送单位，而模板创建时也可以指定报送单位，不同时怎么办？&lt;br&gt;2.期数数量（下期分发时间）怎么确定，根据报表期别判断？规则列清&lt;br&gt;3.报表模板编辑中指定了填报人，这个填报人值得是具体账号，还是角色？&lt;br&gt;4.当期报送截止时间 = 报出日期（报表模板编辑中右下角）吗？&lt;br&gt;5.下期未分发的为啥会出现在报表审核列表中&lt;br&gt;6.模板编辑保存、删除功能对已分发的影响？如果无影响，那么已引用该模板id的任务会有问题&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="960" y="1150" width="520" height="110" as="geometry" />
         </mxCell>
         <mxCell id="xDw_eRk6znZJZdeoMfOq-128" value="概念梳理：&lt;br&gt;1.报送单位&lt;br&gt;2.镇级单位&lt;br&gt;3.审核单位&lt;br&gt;4.报送日期指的是啥&lt;br&gt;5.调查表式不同选项的含义" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="980" y="990" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xDw_eRk6znZJZdeoMfOq-148" value="关于excel必填项" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="965" y="1285" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
