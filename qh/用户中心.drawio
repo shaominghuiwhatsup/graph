@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T09:06:42.505Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="1_z5mHEF-C2tz4WV4_Tm" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-04T09:26:43.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6UhXwBpPFVdzrp6jPeXx" version="21.6.9" type="github">
   <diagram name="第 1 页" id="T_Qr8wbMWN0bz3B8aA-s">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,7 +56,10 @@
           <mxGeometry x="440" y="1000" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q_bsnsijbKUvUGULSrgJ-13" value="用户中心兼容" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="950" width="134" height="40" as="geometry" />
+          <mxGeometry x="200" y="1010" width="134" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_bsnsijbKUvUGULSrgJ-16" value="密码规则不一致&lt;br&gt;同时购买产服+数图+chatdata，以谁的规则为准？" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1170" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
