@@ -1,35 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T02:02:20.248Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LA0FV8GQoAIvhgJkejfv" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-04T09:06:42.505Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="1_z5mHEF-C2tz4WV4_Tm" version="21.6.9" type="github">
   <diagram name="第 1 页" id="T_Qr8wbMWN0bz3B8aA-s">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="do1fyc625eEN_bc2Y6nT-1" value="数据生产者用户id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Q_bsnsijbKUvUGULSrgJ-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1000" width="420" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="do1fyc625eEN_bc2Y6nT-1" value="数据生产者用户id" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="do1fyc625eEN_bc2Y6nT-2" value="数据查询者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="do1fyc625eEN_bc2Y6nT-2" value="数据查询者" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="do1fyc625eEN_bc2Y6nT-3" value="区划" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="do1fyc625eEN_bc2Y6nT-3" value="区划" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="do1fyc625eEN_bc2Y6nT-4" value="用户区划关联表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="do1fyc625eEN_bc2Y6nT-4" value="用户区划关联表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="do1fyc625eEN_bc2Y6nT-5" value="数据1： userid:1,&amp;nbsp; 用户区划关联code：440307000000000000（深圳）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="do1fyc625eEN_bc2Y6nT-5" value="数据1： userid:1,&amp;nbsp; 用户区划关联code：440307000000000000（深圳）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="354" y="420" width="670" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="do1fyc625eEN_bc2Y6nT-6" value="区划" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="do1fyc625eEN_bc2Y6nT-6" value="区划" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="820" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="do1fyc625eEN_bc2Y6nT-7" value="用户区划关联表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="do1fyc625eEN_bc2Y6nT-7" value="用户区划关联表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="do1fyc625eEN_bc2Y6nT-8" value="查询者，针对数据1： userid:2,&amp;nbsp; 用户区划关联code：440307000000000000（深圳）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="do1fyc625eEN_bc2Y6nT-8" value="查询者，针对数据1： userid:2,&amp;nbsp; 用户区划关联code：440307000000000000（深圳）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="354" y="670" width="670" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="do1fyc625eEN_bc2Y6nT-9" value="查询区划code 本组、本子组、全部" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="do1fyc625eEN_bc2Y6nT-9" value="查询区划code 本组、本子组、全部" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_bsnsijbKUvUGULSrgJ-4" value="手机号唯一且不为空" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_bsnsijbKUvUGULSrgJ-6" value="用户名是真实姓名，不做规则限制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_bsnsijbKUvUGULSrgJ-7" value="密码规则较多" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_bsnsijbKUvUGULSrgJ-8" value="密码字符串格式正则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_bsnsijbKUvUGULSrgJ-9" value="密码错误输入次数超限锁定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_bsnsijbKUvUGULSrgJ-10" value="密码半年修改一次" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_bsnsijbKUvUGULSrgJ-12" value="产服" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_bsnsijbKUvUGULSrgJ-13" value="用户中心兼容" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="950" width="134" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
