@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T01:42:10.747Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ETuQfivZigujezATKTMr" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T01:52:42.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="cVcZM9zTCkh81ANbwRrR" version="22.1.18" type="github">
   <diagram name="第 1 页" id="p9VmmkafGEHbFP1PxyVO">
     <mxGraphModel dx="1509" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1400,8 +1400,8 @@
         <mxCell id="xaNHsUL_Vwoy7txiEfdw-37" value="用户中心适配，主要是一些remote接口移植，system移植过来的接口和新用户中心现有设计有无冲突点" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="900" y="5620" width="340" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="xaNHsUL_Vwoy7txiEfdw-39" value="权限校验。 实现方式： 切面" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="5930" width="220" height="40" as="geometry" />
+        <mxCell id="xaNHsUL_Vwoy7txiEfdw-39" value="模板、填报的权限校验。 实现方式： 切面" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="5930" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xaNHsUL_Vwoy7txiEfdw-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xaNHsUL_Vwoy7txiEfdw-40" target="xaNHsUL_Vwoy7txiEfdw-41">
           <mxGeometry relative="1" as="geometry" />
@@ -1429,8 +1429,8 @@
         <mxCell id="xaNHsUL_Vwoy7txiEfdw-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xaNHsUL_Vwoy7txiEfdw-45" target="xaNHsUL_Vwoy7txiEfdw-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xaNHsUL_Vwoy7txiEfdw-45" value="实现DTO,设置类型，比如接口性质是查看或者编辑操作。&lt;br&gt;当前应该存在：&amp;nbsp;&lt;br&gt;1：查看模板，对应 模板id&lt;br&gt;2：查看填报， 对应填报id&lt;br&gt;3：编辑模板，对应模板id&lt;br&gt;4：编辑填报，对应填报id" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="990" y="5998.75" width="240" height="122.5" as="geometry" />
+        <mxCell id="xaNHsUL_Vwoy7txiEfdw-45" value="实现DTO,设置类型，比如接口性质是查看或者编辑操作。&lt;br&gt;当前应该存在：&amp;nbsp;&lt;br&gt;1：查看模板，对应 模板id&lt;br&gt;2：查看填报， 对应填报id&lt;br&gt;3：编辑模板，对应模板id&lt;br&gt;4：编辑填报，对应填报id&lt;br&gt;同时支持多个，例如可以同时支持 查看模板、编辑模板的权限校验" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="972" y="5984.38" width="240" height="151.25" as="geometry" />
         </mxCell>
         <mxCell id="xaNHsUL_Vwoy7txiEfdw-48" value="支持1，2，3" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1510" y="6030" width="120" height="60" as="geometry" />
