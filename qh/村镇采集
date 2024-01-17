@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T01:19:45.494Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="9YuwyRQlPzmg1qCKqF85" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T01:21:20.613Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Gr6JMi_PdsD74gSiDyKV" version="22.1.18" type="github">
   <diagram name="第 1 页" id="p9VmmkafGEHbFP1PxyVO">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1396,6 +1396,9 @@
         </mxCell>
         <mxCell id="xaNHsUL_Vwoy7txiEfdw-36" value="模板下发仍要支持三种场景：&lt;br&gt;1.市镇村&lt;br&gt;2.村&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.镇&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="5610" width="179" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xaNHsUL_Vwoy7txiEfdw-37" value="用户中心适配，主要是一些remote接口移植，system移植过来的接口和新用户中心现有设计有无冲突点" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="5620" width="340" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
