@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T01:21:20.613Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Gr6JMi_PdsD74gSiDyKV" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T01:22:35.382Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="HE3twSwse14nwYAtd2vj" version="22.1.18" type="github">
   <diagram name="第 1 页" id="p9VmmkafGEHbFP1PxyVO">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1343,7 +1343,7 @@
             <mxPoint x="1020" y="4870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xaNHsUL_Vwoy7txiEfdw-18" value="默认初始化信息科角色" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="xaNHsUL_Vwoy7txiEfdw-18" value="采取配置项方式，读取信息科roleCode" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="910" y="4890" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xaNHsUL_Vwoy7txiEfdw-20" value="创建模板的用户的所属角色有编辑权限" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
