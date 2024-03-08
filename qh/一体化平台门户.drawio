@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T06:21:06.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="tY7J_AfHZdlaCwdBiA_W" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T06:22:32.548Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="wQzpNu2UBqRXsqawRHDa" version="24.0.2" type="github">
   <diagram name="第 1 页" id="UCJbkfEHo9nf_XNZpd-x">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -240,16 +240,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-89" value="消息推送流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1830" width="105" height="30" as="geometry" />
+          <mxGeometry x="125" y="1870" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-90" value="用户中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="634" y="2320" width="100" height="300" as="geometry" />
+          <mxGeometry x="634" y="2240" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-91" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LZsBVTFSexPPK4ItmFY2-90">
           <mxGeometry x="45" y="110" width="10" height="170" as="geometry" />
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-94" value="移动端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="280" y="2320" width="100" height="480" as="geometry" />
+          <mxGeometry x="280" y="2240" width="100" height="480" as="geometry" />
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-95" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LZsBVTFSexPPK4ItmFY2-94">
           <mxGeometry x="45" y="100" width="10" height="80" as="geometry" />
@@ -264,27 +264,27 @@
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-98" value="接口调用，拉取推送列表" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
           <mxGeometry x="0.0014" relative="1" as="geometry">
-            <mxPoint x="330" y="2469.5" as="sourcePoint" />
-            <mxPoint x="679.5" y="2469.5" as="targetPoint" />
+            <mxPoint x="330" y="2389.5" as="sourcePoint" />
+            <mxPoint x="679.5" y="2389.5" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-99" value="用户中心数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="850" y="2320" width="100" height="300" as="geometry" />
+          <mxGeometry x="850" y="2240" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-100" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LZsBVTFSexPPK4ItmFY2-99">
           <mxGeometry x="45" y="150" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-101" value="查询消息表" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="690" y="2500" as="sourcePoint" />
-            <mxPoint x="896" y="2500" as="targetPoint" />
+            <mxPoint x="690" y="2420" as="sourcePoint" />
+            <mxPoint x="896" y="2420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-102" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="670" y="2590" as="sourcePoint" />
-            <mxPoint x="335" y="2590" as="targetPoint" />
+            <mxPoint x="670" y="2510" as="sourcePoint" />
+            <mxPoint x="335" y="2510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-103" value="返回消息列表（消息id、封面、title等必要信息）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LZsBVTFSexPPK4ItmFY2-102">
@@ -293,13 +293,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-104" value="移动端消息列表拉取" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="185" y="2270" width="140" height="40" as="geometry" />
+          <mxGeometry x="90" y="2240" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-107" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="325" y="2670" width="10" height="80" as="geometry" />
+          <mxGeometry x="325" y="2590" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-108" value="数图" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1040" y="2320" width="80" height="520" as="geometry" />
+          <mxGeometry x="1040" y="2240" width="80" height="520" as="geometry" />
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-109" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LZsBVTFSexPPK4ItmFY2-108">
           <mxGeometry x="35" y="350" width="10" height="80" as="geometry" />
@@ -317,15 +317,15 @@
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-110" value="用户点击消息" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
           <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint x="245" y="2700" as="sourcePoint" />
-            <mxPoint x="315" y="2700" as="targetPoint" />
+            <mxPoint x="245" y="2620" as="sourcePoint" />
+            <mxPoint x="315" y="2620" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-111" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="2714" as="sourcePoint" />
-            <mxPoint x="1075" y="2714" as="targetPoint" />
+            <mxPoint x="340" y="2634" as="sourcePoint" />
+            <mxPoint x="1075" y="2634" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-112" value="前端携带必要参数，请求数图" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LZsBVTFSexPPK4ItmFY2-111">
