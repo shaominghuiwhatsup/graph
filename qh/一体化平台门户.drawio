@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T01:47:19.211Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="k29aGTO0QVFhTdaDC31G" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T03:59:55.034Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="IjzVozmoZrafXf0uSIkg" version="24.0.2" type="github">
   <diagram name="第 1 页" id="UCJbkfEHo9nf_XNZpd-x">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,6 +99,83 @@
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-35" value="是否预置角色，查询映射表。例如，初始化了一个角色：教育局。 对应的南山部门id为1。&lt;div&gt;那么如果用户的部门列表中含1，则需要向role_user表中插入对应数据。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="940" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZsBVTFSexPPK4ItmFY2-38" target="LZsBVTFSexPPK4ItmFY2-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-38" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZsBVTFSexPPK4ItmFY2-39" target="LZsBVTFSexPPK4ItmFY2-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-39" value="政务微信点击应用" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZsBVTFSexPPK4ItmFY2-41" target="LZsBVTFSexPPK4ItmFY2-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-41" value="政务微信传code到前端页面" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZsBVTFSexPPK4ItmFY2-43" target="LZsBVTFSexPPK4ItmFY2-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-43" value="前端调用后端登录接口，传入政务微信code" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZsBVTFSexPPK4ItmFY2-45" target="LZsBVTFSexPPK4ItmFY2-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-45" value="后端接口根据corpid和secret，获取政务微信token" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZsBVTFSexPPK4ItmFY2-47" target="LZsBVTFSexPPK4ItmFY2-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-47" value="使用上述token和前端传入code，后去用户信息，含用户id" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LZsBVTFSexPPK4ItmFY2-51" target="LZsBVTFSexPPK4ItmFY2-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZsBVTFSexPPK4ItmFY2-51" target="LZsBVTFSexPPK4ItmFY2-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-51" value="用户存在？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1515" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZsBVTFSexPPK4ItmFY2-53" target="LZsBVTFSexPPK4ItmFY2-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-53" value="更新用户信息，生成智慧统计token" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="1525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZsBVTFSexPPK4ItmFY2-55" target="LZsBVTFSexPPK4ItmFY2-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-55" value="返回token，登录成功" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-57" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZsBVTFSexPPK4ItmFY2-59" target="LZsBVTFSexPPK4ItmFY2-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-59" value="插入用户信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-61" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LZsBVTFSexPPK4ItmFY2-62" target="LZsBVTFSexPPK4ItmFY2-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-62" value="更新uc_group_user信息、uc_role_user信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1525" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
