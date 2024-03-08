@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T10:15:36.737Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Azgb_rtc60QHrFhCCfDF" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T01:47:19.211Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="k29aGTO0QVFhTdaDC31G" version="24.0.2" type="github">
   <diagram name="第 1 页" id="UCJbkfEHo9nf_XNZpd-x">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,6 +58,9 @@
         <mxCell id="LZsBVTFSexPPK4ItmFY2-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZsBVTFSexPPK4ItmFY2-18" target="LZsBVTFSexPPK4ItmFY2-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LZsBVTFSexPPK4ItmFY2-18" target="LZsBVTFSexPPK4ItmFY2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-18" value="获取用户组织id" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="760" width="120" height="60" as="geometry" />
         </mxCell>
@@ -75,6 +78,27 @@
         </mxCell>
         <mxCell id="LZsBVTFSexPPK4ItmFY2-24" value="初始化我们用户体系" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="910" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-27" value="初始化哪些角色，要提前订" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-28" value="初始角色-南山部门映射" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZsBVTFSexPPK4ItmFY2-30" target="LZsBVTFSexPPK4ItmFY2-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-30" value="部门是否预置角色？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="870" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-32" value="初始化角色菜单等信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-34" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZsBVTFSexPPK4ItmFY2-35" value="是否预置角色，查询映射表。例如，初始化了一个角色：教育局。 对应的南山部门id为1。&lt;div&gt;那么如果用户的部门列表中含1，则需要向role_user表中插入对应数据。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="940" width="300" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
