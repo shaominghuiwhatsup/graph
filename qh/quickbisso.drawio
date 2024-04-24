@@ -1,9 +1,218 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T06:04:52.975Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.0.4" etag="c015oqqpyDQQVYo-EFO1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T08:10:06.730Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="HdgY7id1cSn76Ib-KBMh" version="24.0.4" type="github">
   <diagram name="第 1 页" id="91klgLEJPZ_D1Jm_gDZB">
-    <mxGraphModel>
+    <mxGraphModel dx="2261" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FCGrhvZOp88AEtulonyn-1" value="政务微信" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="FCGrhvZOp88AEtulonyn-1">
+          <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-5" value="点击图标" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="FCGrhvZOp88AEtulonyn-4" parent="FCGrhvZOp88AEtulonyn-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="95" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="FCGrhvZOp88AEtulonyn-1">
+          <mxGeometry x="45" y="215" width="10" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-2" value="用户中心&lt;br&gt;（rioweb.szns.gov.cn/chatdata/）" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="370" y="290" width="170" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="FCGrhvZOp88AEtulonyn-2">
+          <mxGeometry x="80" y="90" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="FCGrhvZOp88AEtulonyn-2">
+          <mxGeometry x="80" y="215" width="10" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-49" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="FCGrhvZOp88AEtulonyn-2">
+          <mxGeometry x="85" y="246" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-50" value="token有效" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="FCGrhvZOp88AEtulonyn-49" parent="FCGrhvZOp88AEtulonyn-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="226" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="256" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-3" value="quickbi&lt;br&gt;（quickbi.szns.gov.cn/token3rd）" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="720" y="290" width="180" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="FCGrhvZOp88AEtulonyn-3">
+          <mxGeometry x="85" y="420" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-58" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="FCGrhvZOp88AEtulonyn-3">
+          <mxGeometry x="85" y="444" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-59" value="校验cookie存在" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="FCGrhvZOp88AEtulonyn-58" parent="FCGrhvZOp88AEtulonyn-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="424" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="454" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="FCGrhvZOp88AEtulonyn-4" target="FCGrhvZOp88AEtulonyn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-9" value="sso" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FCGrhvZOp88AEtulonyn-8">
+          <mxGeometry x="0.0034" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1" source="FCGrhvZOp88AEtulonyn-7" target="FCGrhvZOp88AEtulonyn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-25" value="返回token，登录完成，将token种在cookie中，含nickname、userid、等&lt;br&gt;域名是：&lt;span style=&quot;text-wrap: wrap; font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;.szns.gov.cn， 多个子域名可共享cookie&lt;/span&gt;&amp;nbsp;。" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FCGrhvZOp88AEtulonyn-10">
+          <mxGeometry x="-0.0169" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="FCGrhvZOp88AEtulonyn-14" target="FCGrhvZOp88AEtulonyn-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-17" value="业务请求，携带token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FCGrhvZOp88AEtulonyn-16">
+          <mxGeometry x="-0.0034" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="571" as="sourcePoint" />
+            <mxPoint x="155" y="571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-19" value="响应业务数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FCGrhvZOp88AEtulonyn-18">
+          <mxGeometry x="0.0712" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="145" y="710" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-24" value="手机政务微信&lt;br&gt;PC政务微信&lt;br&gt;&lt;div&gt;场景&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="280" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-26" value="单独访问quickBi login场景" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="1100" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-27" value="用户中心&lt;br&gt;（http://ip:port）" style="shape=umlLifeline;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=rectanglePerimeter;targetShapes=umlLifeline;participant=label;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1110" width="170" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-34" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="FCGrhvZOp88AEtulonyn-27">
+          <mxGeometry x="80" y="135" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-39" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="FCGrhvZOp88AEtulonyn-27">
+          <mxGeometry x="85" y="170" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-40" value="用戶名、密码、手机验证码等登录" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="FCGrhvZOp88AEtulonyn-39" parent="FCGrhvZOp88AEtulonyn-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-30" value="quickbi&lt;br&gt;（quickbi.szns.gov.cn/token3rd）" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="145" y="1110" width="180" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-31" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="FCGrhvZOp88AEtulonyn-30">
+          <mxGeometry x="85" y="270" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="FCGrhvZOp88AEtulonyn-30">
+          <mxGeometry x="85" y="135" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-33" value="登录页" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="FCGrhvZOp88AEtulonyn-32" parent="FCGrhvZOp88AEtulonyn-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-43" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="FCGrhvZOp88AEtulonyn-30">
+          <mxGeometry x="90" y="304" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-44" value="用户登出，quickbi清除cookie" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="FCGrhvZOp88AEtulonyn-43" parent="FCGrhvZOp88AEtulonyn-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="284" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="125" y="314" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-35" value="跳转到用户中心sso页面" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" target="FCGrhvZOp88AEtulonyn-34" parent="1" source="FCGrhvZOp88AEtulonyn-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="1250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1" source="FCGrhvZOp88AEtulonyn-34" target="FCGrhvZOp88AEtulonyn-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-42" value="返回token，携带在重定向url后面，作为参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FCGrhvZOp88AEtulonyn-41">
+          <mxGeometry x="0.2148" y="-4" relative="1" as="geometry">
+            <mxPoint x="58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-45" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="780" y="1440" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-46" value="调用logout接口，清除token" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="234.5" y="1467" as="sourcePoint" />
+            <mxPoint x="780" y="1467" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1" source="FCGrhvZOp88AEtulonyn-45" target="FCGrhvZOp88AEtulonyn-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-48" value="返回登出成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FCGrhvZOp88AEtulonyn-47">
+          <mxGeometry x="0.063" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-51" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="452" y="623" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-52" value="token失效、是否处理？" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1" target="FCGrhvZOp88AEtulonyn-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="457" y="603" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="487" y="633" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="1" source="FCGrhvZOp88AEtulonyn-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="715" as="sourcePoint" />
+            <mxPoint x="800" y="715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-62" value="业务请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FCGrhvZOp88AEtulonyn-54">
+          <mxGeometry x="0.0302" y="1" relative="1" as="geometry">
+            <mxPoint x="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1" source="FCGrhvZOp88AEtulonyn-21" target="FCGrhvZOp88AEtulonyn-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-61" value="返回数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FCGrhvZOp88AEtulonyn-60">
+          <mxGeometry x="-0.12" y="2" relative="1" as="geometry">
+            <mxPoint x="-66" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-63" value="注意这里" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="620" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-64" value="注意这里，提前设置好cookie，不让token过期" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="930" y="730" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-65" value="子域" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="470" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FCGrhvZOp88AEtulonyn-66" value="跨域" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="1270" width="100" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
