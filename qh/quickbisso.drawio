@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T09:55:42.026Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="U8HtCi7hVk77ecjTIF2g" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T09:56:06.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="rmp72H94b6vYT1247ls2" version="24.0.4" type="github">
   <diagram name="第 1 页" id="91klgLEJPZ_D1Jm_gDZB">
     <mxGraphModel dx="2022" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,7 +168,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FCGrhvZOp88AEtulonyn-74" value="重新登入小助手" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FCGrhvZOp88AEtulonyn-73">
+        <mxCell id="FCGrhvZOp88AEtulonyn-74" value="重新点击小助手访问" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FCGrhvZOp88AEtulonyn-73">
           <mxGeometry x="-0.0135" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
