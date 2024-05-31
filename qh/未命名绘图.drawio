@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T03:01:00.868Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="A8x8N78By3pFOL1jg0a9" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T04:05:58.817Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="VBiwcDzvmNV2xUUtsHO8" version="24.4.10" type="github">
   <diagram name="第 1 页" id="gvvmEpkAqWaoY7Daplwi">
     <mxGraphModel dx="2261" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -232,7 +232,79 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-1" value="比较大的影响：&lt;div&gt;用我们自有的系统去做权限控制&lt;div&gt;每个政务微信用户配置自己相应的quickbi链接&lt;/div&gt;&lt;div&gt;所以quickbi的链接总数会增加，配置的工作量会变大&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1985" width="300" height="70" as="geometry" />
+          <mxGeometry x="116" y="2070" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PeqmA5MVkY0Wv3IIqCLQ-2" target="PeqmA5MVkY0Wv3IIqCLQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-2" value="用户中心-用户1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="2260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PeqmA5MVkY0Wv3IIqCLQ-3" target="PeqmA5MVkY0Wv3IIqCLQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-3" value="用户中心-用户3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="2470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PeqmA5MVkY0Wv3IIqCLQ-4" target="PeqmA5MVkY0Wv3IIqCLQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-4" value="用户中心-用户2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="2370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-6" value="quickbi用户1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="416" y="2370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PeqmA5MVkY0Wv3IIqCLQ-13" target="PeqmA5MVkY0Wv3IIqCLQ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-13" value="用户中心-用户1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="2620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PeqmA5MVkY0Wv3IIqCLQ-14" target="PeqmA5MVkY0Wv3IIqCLQ-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-14" value="用户中心-用户3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="2840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PeqmA5MVkY0Wv3IIqCLQ-15" target="PeqmA5MVkY0Wv3IIqCLQ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-15" value="用户中心-用户2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="2730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PeqmA5MVkY0Wv3IIqCLQ-24" target="PeqmA5MVkY0Wv3IIqCLQ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-24" value="用户中心-角色1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="146" y="2620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-25" value="quickbi链接1" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PeqmA5MVkY0Wv3IIqCLQ-27" target="PeqmA5MVkY0Wv3IIqCLQ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-27" value="用户中心-角色2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="146" y="2730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-28" value="quickbi链接2" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PeqmA5MVkY0Wv3IIqCLQ-30" target="PeqmA5MVkY0Wv3IIqCLQ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-30" value="用户中心-角色3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="146" y="2840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-31" value="quickbi链接3" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-37" value="用户中心用户和quickbi用户关系" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="2230" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-38" value="用户中心用户和quickbi链接关系" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-266" y="2600" width="190" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
