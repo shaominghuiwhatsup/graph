@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T04:05:58.817Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="VBiwcDzvmNV2xUUtsHO8" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-06T07:02:47.922Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Sg72Kx_r7aOxolekZQQn" version="24.4.10" type="github">
   <diagram name="第 1 页" id="gvvmEpkAqWaoY7Daplwi">
     <mxGraphModel dx="2261" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -232,7 +232,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-1" value="比较大的影响：&lt;div&gt;用我们自有的系统去做权限控制&lt;div&gt;每个政务微信用户配置自己相应的quickbi链接&lt;/div&gt;&lt;div&gt;所以quickbi的链接总数会增加，配置的工作量会变大&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="116" y="2070" width="300" height="70" as="geometry" />
+          <mxGeometry x="130" y="2017" width="300" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PeqmA5MVkY0Wv3IIqCLQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PeqmA5MVkY0Wv3IIqCLQ-2" target="PeqmA5MVkY0Wv3IIqCLQ-6">
           <mxGeometry relative="1" as="geometry" />
