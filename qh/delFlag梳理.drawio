@@ -13,9 +13,6 @@
         <mxCell id="3u9v99a0_DjcfmFDfVX--1" value="saveDbTable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3u9v99a0_DjcfmFDfVX--2" value="wide_source_column" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="30" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="3u9v99a0_DjcfmFDfVX--19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3u9v99a0_DjcfmFDfVX--3" target="3u9v99a0_DjcfmFDfVX--18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -56,7 +53,7 @@
           <mxGeometry x="70" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3u9v99a0_DjcfmFDfVX--15" value="直取表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="1110" width="120" height="60" as="geometry" />
+          <mxGeometry x="-20" y="1109" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3u9v99a0_DjcfmFDfVX--17" value="Excel表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="890" width="120" height="60" as="geometry" />
@@ -97,7 +94,7 @@
         </mxCell>
         <mxCell id="3u9v99a0_DjcfmFDfVX--26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="40" y="1140" as="sourcePoint" />
+            <mxPoint x="100" y="1140" as="sourcePoint" />
             <mxPoint x="140" y="1140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
