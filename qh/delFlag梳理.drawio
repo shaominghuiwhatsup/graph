@@ -37,7 +37,7 @@
         <mxCell id="3u9v99a0_DjcfmFDfVX--6" value="直接插入，不涉及" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3u9v99a0_DjcfmFDfVX--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3u9v99a0_DjcfmFDfVX--10" target="3u9v99a0_DjcfmFDfVX--40">
+        <mxCell id="3u9v99a0_DjcfmFDfVX--50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3u9v99a0_DjcfmFDfVX--10" target="3u9v99a0_DjcfmFDfVX--49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3u9v99a0_DjcfmFDfVX--10" value="不过滤delFlag?" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
@@ -51,9 +51,6 @@
         </mxCell>
         <mxCell id="3u9v99a0_DjcfmFDfVX--14" value="SQL宽表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="780" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3u9v99a0_DjcfmFDfVX--15" value="直取表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="1109" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3u9v99a0_DjcfmFDfVX--17" value="Excel表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="890" width="120" height="60" as="geometry" />
@@ -91,12 +88,6 @@
         </mxCell>
         <mxCell id="3u9v99a0_DjcfmFDfVX--25" value="字段删除后加回来场景" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="290" y="770" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3u9v99a0_DjcfmFDfVX--26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="1140" as="sourcePoint" />
-            <mxPoint x="140" y="1140" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="3u9v99a0_DjcfmFDfVX--27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="3u9v99a0_DjcfmFDfVX--28">
           <mxGeometry relative="1" as="geometry">
@@ -150,13 +141,36 @@
           <mxGeometry x="460" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3u9v99a0_DjcfmFDfVX--40" value="保存成功" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="800" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="740" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3u9v99a0_DjcfmFDfVX--44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3u9v99a0_DjcfmFDfVX--43" target="3u9v99a0_DjcfmFDfVX--15">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3u9v99a0_DjcfmFDfVX--44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3u9v99a0_DjcfmFDfVX--43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="1140" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3u9v99a0_DjcfmFDfVX--43" value="数据库管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="1110" width="120" height="60" as="geometry" />
+          <mxGeometry x="-30" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3u9v99a0_DjcfmFDfVX--49" value="容易引发线上其他问题&lt;div&gt;有风险&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3u9v99a0_DjcfmFDfVX--53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3u9v99a0_DjcfmFDfVX--51" target="3u9v99a0_DjcfmFDfVX--52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3u9v99a0_DjcfmFDfVX--51" value="元数据刷新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3u9v99a0_DjcfmFDfVX--55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3u9v99a0_DjcfmFDfVX--52" target="3u9v99a0_DjcfmFDfVX--54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3u9v99a0_DjcfmFDfVX--52" value="字段删除后加回来场景" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="980" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3u9v99a0_DjcfmFDfVX--56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shape=link;dashed=1;" edge="1" parent="1" source="3u9v99a0_DjcfmFDfVX--54" target="3u9v99a0_DjcfmFDfVX--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3u9v99a0_DjcfmFDfVX--54" value="恢复delFlag" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="990" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
